@@ -1,0 +1,24 @@
+# Beta reduce
+
+1. a. (\abc.cba)zz(\wv.w)
+b. (\a.\b.\c.cba)zz(\w.\v.w)
+c. (\b.\c.cbz)z(\w.\v.w)
+d. (\c.czz)(\w.\v.w)
+e. (\w.\v.w)zz
+f. (\v.z)z
+g. z
+
+2. a. (\x.\y.xyy)(\a.a)b
+b. (\y.(\a.a)yy)b
+c. (\a.a)bb
+d. (b)b
+
+3. a. (\y.y)(\x.xx)(\z.zq)
+
+4. a. (\z.z)(\z.zz)(\z.zy)
+
+5. a. (\x.\y.xyy)(\y.y)y
+
+6. a. (\a.aa)(\b.ba)c
+
+7. a. (\xyz.xz(yz))(\x.z)(\x.a)
