@@ -1,24 +1,32 @@
 # Beta reduce
 
-1. a. (\abc.cba)zz(\wv.w)
-b. (\a.\b.\c.cba)zz(\w.\v.w)
-c. (\b.\c.cbz)z(\w.\v.w)
-d. (\c.czz)(\w.\v.w)
-e. (\w.\v.w)zz
-f. (\v.z)z
-g. z
+1. (\abc.cba)zz(\wv.w)
+(\a.\b.\c.cba)zz(\w.\v.w)
+(\b.\c.cbz)z(\w.\v.w)
+(\c.czz)(\w.\v.w)
+(\w.\v.w)zz
+(\v.z)z
+z
 
-2. a. (\x.\y.xyy)(\a.a)b
-b. (\y.(\a.a)yy)b
-c. (\a.a)bb
-d. (b)b
+2. (\x.\y.xyy)(\a.a)b
+(\y.(\a.a)yy)b
+(\a.a)bb
+(b)b
 
-3. a. (\y.y)(\x.xx)(\z.zq)
+3. (\y.y)(\x.xx)(\z.zq)
+(\x.xx)(\z.zq)
+(\z.zq)(\z.zq)
+(\z.zq)q
+qq
 
-4. a. (\z.z)(\z.zz)(\z.zy)
+4. (\z.z)(\z.zz)(\z.zy)
+(\z.zz)(\z.zy)
+(\z.zy)(\z.zy)
+(\z.zy)y
+yy
 
-5. a. (\x.\y.xyy)(\y.y)y
+5. (\x.\y.xyy)(\y.y)y
 
-6. a. (\a.aa)(\b.ba)c
+6. (\a.aa)(\b.ba)c
 
-7. a. (\xyz.xz(yz))(\x.z)(\x.a)
+7. (\xyz.xz(yz))(\x.z)(\x.a)
